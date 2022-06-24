@@ -6,7 +6,7 @@ public class PickableObject : MonoBehaviour
 {
     private Rigidbody objectRigidbody;
     
-    private void Start()
+    private void Awake()
     {
         objectRigidbody = GetComponent<Rigidbody>();
     }
@@ -18,6 +18,7 @@ public class PickableObject : MonoBehaviour
         transform.rotation = handTransform.rotation;
         transform.parent = handTransform;
     }
+
     public void Drop()
     {
         objectRigidbody.isKinematic = false;
