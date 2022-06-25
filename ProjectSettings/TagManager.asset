@@ -4,8 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Shootable
   - Dummy
+  - Fire
   layers:
   - Default
   - TransparentFX
@@ -16,7 +16,7 @@ TagManager:
   - Player
   - Pickup
   - Dummy
-  - 
+  - Missile
   - 
   - 
   - 
