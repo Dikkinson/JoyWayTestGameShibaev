@@ -5819,8 +5819,8 @@ GameObject:
   - component: {fileID: 8778138990587111024}
   - component: {fileID: 3086603016377626971}
   - component: {fileID: 7547832766471810131}
-  - component: {fileID: 704715982195257064}
-  - component: {fileID: 704715982195257065}
+  - component: {fileID: -74822575693714137}
+  - component: {fileID: 6023109762626454661}
   m_Layer: 8
   m_Name: DummyPrefab
   m_TagString: Dummy
@@ -5913,7 +5913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dummyMeshRenderer: {fileID: 6883370814608157990}
---- !u!114 &704715982195257064
+--- !u!114 &-74822575693714137
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5928,8 +5928,7 @@ MonoBehaviour:
   wetValueBar: {fileID: 704715982423039868}
   maximumWetValue: 100
   wetColor: {r: 0, g: 0.08670282, b: 1, a: 1}
-  dryAmountPerFireParticle: 1
---- !u!114 &704715982195257065
+--- !u!114 &6023109762626454661
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

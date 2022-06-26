@@ -7,7 +7,6 @@ public class WetObject : MonoBehaviour
     [SerializeField] private ValueBar wetValueBar;
     [SerializeField] private float maximumWetValue;
     [SerializeField] private Color wetColor;
-    [SerializeField] private float dryAmountPerFireParticle = 1f;//missile
     
     private DummyView dummyView;
     private bool _isWet;
@@ -28,7 +27,7 @@ public class WetObject : MonoBehaviour
     public bool IsWet 
     {
         get => _isWet;
-        set
+        private set
         {
             _isWet = value;
             if (_isWet)
